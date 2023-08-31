@@ -1,0 +1,208 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+img, video, iframe{
+    vertical-align: middle;
+}
+ol, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+img, video{
+    max-width: 100%;
+}
+/*font-family: 'Sorts Mill Goudy', serif;
+font-family: 'Spoqa Han Sans Neo';*/
+body{
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #363636;
+}
+
+
+/*container*/
+
+
+#container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    position: relative;
+}
+#gallery{
+    background: url(../img/hilly_cafe.png) no-repeat center center;
+    width: 50%;
+    background-size: cover;
+}
+.circle1{
+    background: url(../img/start_gallery_circle.png) no-repeat center center;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+.circle1>h1, .circle2>h1{
+    padding-bottom: 30px;
+    width: 38px;
+}
+.circle1>h2, .circle2>h2{
+    font-size: 40px;
+    font-family: 700;
+    padding-bottom: 15px;
+}
+.circle1>a, .circle2>a{
+    background-color: #363636;
+    display: inline;
+    padding: 5px 20px;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.circle2>a{
+    border-radius: 20px;
+}
+#cafe{
+    background: url(../img/hilly_gallery.png) no-repeat center center;
+    width: 50%;
+    background-size: cover;
+}
+.circle2{
+    background: url(../img/start_cafe_circle.png) no-repeat center center;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 82px;
+}
+.box{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s;
+    position: relative;
+}
+#gallery:hover>.box{
+    background-color: rgba(0,0,0,0);
+    transition: all 0.5s;
+}
+#cafe:hover>.box{
+    background-color: rgba(0,0,0,0);
+    transition: all 0.5s;
+}
+
+
+/*태블릿부분*/
+@media (min-width:600px) and (max-width:999px){
+    #gallery{
+        width: 100%;
+        height: 50vh;
+    }
+    #cafe{
+        width: 100%;
+        height: 50vh;
+    }
+    .box{
+        position: relative;
+    }
+    .circle1{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .circle2{
+        width: 320px;
+        height: 320px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .circle1>h2, .circle2>h2{
+        font-size: 30px;
+    }
+    .circle1>a, .circle2>a{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .logo{
+        width: 40px;
+    }
+}
+
+
+/*모바일부분*/
+@media (max-width:599px){
+    #gallery{
+        width: 100%;
+        height: 50vh;
+    }
+    #cafe{
+        width: 100%;
+        height: 50vh;
+    }
+    .box{
+        position: relative;
+    }
+    .circle1{
+        width: 260px;
+        height: 260px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .circle2{
+        width: 260px;
+        height: 256px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .circle1>h2, .circle2>h2{
+        font-size: 25px;
+    }
+    .circle1>a, .circle2>a{
+        font-size: 10px;
+        margin-top: 15px;
+        padding: 3px 10px;
+    }
+    .logo{
+        width: 35px;
+    }
+}

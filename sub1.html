@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HILLY Gallery Cafe</title>
+    <!--파비콘-->
+    <link rel="shortcut icon" href="./img/icon_logo.png" type="image/x-icon">
+    <!--영문폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+    <!--한글폰트-->
+    <link rel="stylesheet" href="./font/stylesheet.css">
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--상설전시 슬라이드-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!--공지사항-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+	<script src="./js/qna.js"></script>
+    <!--gallery-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!--타이핑-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--sub1.css-->
+    <link rel="stylesheet" href="./css/sub1.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>
+                <a href="./sub1.html">
+                    <img src="./img/logo.svg" alt="hilly gallery cafes">
+                </a>
+            </h1>
+            <div class="gnb_menu" id="gnb_menu">
+                <span class="burgur" id="burgur">
+                      <span class="top-line"></span>
+                      <span class="bot-line"></span>
+                </span>
+           </div><!--gnb_menu-->
+            <ul id="gnb" class="gnb">
+                <li>
+                    <a href="#collection">소장품</a>
+                </li>
+                <li>
+                    <a href="#exhibition">전시</a>
+                </li>
+                <li>
+                    <a href="#tab1">프로그램</a>
+                </li>
+                <li>
+                    <a href="#tab3">공지사항</a>
+                </li>
+            </ul><!--gnb-->
+            <div class="slide" id="slide">
+                <ul>
+                    <li><a href="#collection">소장품<div class="solid"></div></a></li>
+                    <li><a href="#exhibition">전시<div class="solid"></div></a></li>
+                    <li><a href="#tab1">프로그램<div class="solid"></div></a></li>
+                    <li><a href="#tab3">공지사항<div class="solid"></div></a></li>
+                    <li><a href="./index.html">INDEX<div class="solid"></div></a></li>
+                </ul>
+               </div><!--slide-->
+        </div><!--header-->
+    </header>
+    <div id="main">
+        <h1>
+            Provide Places To Relax,<br>
+            Need Healing
+        </h1>
+        <div class="img"></div><!--img-->
+    </div><!--main-->
+    <div id="menu">
+        <div class="menu_in" data-aos="fade-up" data-aos-delay="50">
+            <div class="menu_"></div>
+            <a href="#exhibition">
+                <div class="menu_img bg1">
+                    <span class="img_text">
+                        HILLY전시
+                    </span>
+                </div><!--menu_img-->
+                <div class="menu_text">
+                    <p>
+                        HILLY EXHIBITION
+                    </p>
+                    <h3>
+                        HILLY전시
+                    </h3>
+                </div><!--menu_text-->
+            </a>
+        </div><!--menu_in-->
+        <div class="menu_in" data-aos="fade-up" data-aos-delay="100">
+            <div class="menu_"></div>
+            <a href="#tab1">
+                <div class="menu_text">
+                    <p>
+                        PROGRAM
+                    </p>
+                    <h3>
+                        프로그램
+                    </h3>
+                </div><!--menu_text-->
+                <div class="menu_img bg2">
+                    <span class="img_text">
+                        프로그램
+                    </span>
+                </div><!--menu_img-->
+            </a>
+        </div><!--menu_in-->
+        <div class="menu_in" data-aos="fade-up" data-aos-delay="200">
+            <div class="menu_"></div>
+            <a href="#tab3">
+                <div class="menu_img bg3">
+                    <span class="img_text">
+                        공지사항
+                    </span>
+                </div><!--menu_img-->
+            <div class="menu_text">
+                <p>
+                    COMMUNITY
+                </p>
+                <h3>
+                    공지사항
+                </h3>
+            </div><!--menu_text-->
+            </a>
+        </div><!--menu_in-->
+        <div class="menu_in" data-aos="fade-up" data-aos-delay="300">
+            <div class="menu_"></div>
+            <a href="#collection">
+                <div class="menu_text">
+                    <p>
+                        COLLECTION
+                    </p>
+                    <h3>
+                        미술 소장품
+                    </h3>
+                </div><!--menu_text-->
+                <div class="menu_img bg4">
+                    <span class="img_text">
+                        미술 소장품
+                    </span>
+                </div><!--menu_img-->
+            </a>
+        </div><!--menu_in-->
+    </div><!--menu-->
+    <div id="exhibition">
+        <p class="sub_title">
+            EXHIBITION
+        </p>
+        <h2 class="title">
+            상설전시안내
+        </h2>
+        <div class="swiper_box">
+        <div class="swiper exhibition_swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper">
+                <div class="swiper_text">
+                    <h3>
+                        위대한 공간
+                    </h3>
+                    <h4>
+                        전통미술과 생동하는 현대미술, 시대적 가치를 반영한<br>
+                        국제미술이 함께 공존하는 세계를...
+                    </h4>
+                    <p>
+                        <a href="#none">자세히보기</a>
+                    </p>
+                </div><!--swiper_text-->
+                <div class="swiper_img1"></div><!--swiper_img-->
+              </div><!-- 1 -->
+              <div class="swiper-slide swiper">
+                <div class="swiper_text">
+                    <h3>
+                        영원한 움직임
+                    </h3>
+                    <h4>
+                        어딘가를 향해 나아가는 이들의 움직임은<br>
+                        살아있는 한 움직일 수 밖에 없는...
+                    </h4>
+                    <p>
+                        <a href="#none">자세히보기</a>
+                    </p>
+                </div><!--swiper_text-->
+                <div class="swiper_img2"></div><!--swiper_img-->
+              </div><!-- 2 -->
+              <div class="swiper-slide swiper">
+                <div class="swiper_text">
+                    <h3>
+                        물질의 의식
+                    </h3>
+                    <h4>
+                        영위하는 공간은 저마다의 목적지로 발을 옮기기 전<br>
+                        잠시 머무는 곳...
+                    </h4>
+                    <p>
+                        <a href="#none">자세히보기</a>
+                    </p>
+                </div><!--swiper_text-->
+                <div class="swiper_img3"></div><!--swiper_img-->
+              </div><!-- 3 -->
+            </div>
+          </div>
+            <div class="swiper-button-next swiper_next"></div>
+            <div class="swiper-button-prev swiper_prev"></div>
+        </div><!--swiper_box-->
+    </div><!--exhibition-->
+    <div id="collection">
+        <p class="sub_title">
+            COLLECTION
+        </p>
+        <h2 class="title">
+            미술소장품
+        </h2>
+        <div class="collection_in" data-aos="fade-up">
+            <a href="#none">
+                <div class="collection_text">
+                    <p>
+                        고미술 소장품
+                    </p>
+                </div><!--collection_text-->
+                <div class="collection_img collbg1"></div><!--collection_img-->
+            </a>
+        </div><!--collection_in-->
+        <div class="collection_in" data-aos="fade-up" data-aos-delay="100">
+            <a href="#none">
+                <div class="collection_img collbg2"></div><!--collection_img-->
+                <div class="collection_text">
+                    <p>
+                        현대미술 소장품
+                    </p>
+                </div><!--collection_text-->
+            </a>
+        </div><!--collection_in-->
+        <div class="collection_in" data-aos="fade-up" data-aos-delay="200">
+            <a href="#none">
+                <div class="collection_text">
+                    <p>
+                        보존연구
+                    </p>
+                </div><!--collection_text-->
+                <div class="collection_img collbg3"></div><!--collection_img-->
+            </a>
+        </div><!--collection_in-->
+    </div><!--collection-->
+    <div id="garden">
+        <p class="sub_title">
+            HILLY GARDEN
+        </p>
+        <h2 class="title">
+            HILLY GARDEN
+        </h2>
+        <div class="garden_img"></div><!--garden_img-->
+    </div><!--garden-->
+    <div id="community">
+        <p class="sub_title">
+            NEWS
+        </p>
+        <h2 class="title">
+            COMMUNITY
+        </h2>
+        <div class="community_inner">
+            <ul class="lnb">
+                <li>
+                    <span data="#tab1">
+                        프로그램
+                    </span>
+                </li>
+                <li>
+                    <span data="#tab2">
+                        언론보도
+                    </span>
+                </li>
+                <li>
+                    <span data="#tab3">
+                        공지사항
+                    </span>
+                </li>
+            </ul><!--lnb-->
+            <a href="#none">전체보기</a>
+        </div><!--community_inner-->
+        <div class="tab_container">
+            <div id="tab1" class="tab_content">
+                <!--Content-->
+                <div class="swiper tab_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide poster_box">
+                        <p>
+                            <a href="#none">
+                                프로그램
+                            </a>
+                        </p>
+                        <h3>
+                            &lbrack; HILLY GALLERY &rbrack; 24회 전시회 개최
+                        </h3>
+                        <h4>
+                            2023.10.30
+                        </h4>
+                        <img src="./img/poster_1.png" alt="the art_exhibit">
+                        </div>
+                        <div class="swiper-slide poster_box">
+                            <p>
+                                <a href="#none">
+                                    프로그램
+                                </a>
+                            </p>
+                            <h3>
+                                &lbrack; HILLY GALLERY &rbrack; 23회 전시회 개최
+                            </h3>
+                            <h4>
+                                2023.10.05
+                            </h4>
+                            <img src="./img/poster_2.png" alt="the art_your the art">
+                        </div>
+                        <div class="swiper-slide poster_box">
+                            <p>
+                                <a href="#none">
+                                    프로그램
+                                </a>
+                            </p>
+                            <h3>
+                                &lbrack; HILLY GALLERY &rbrack; 22회 전시회 개최
+                            </h3>
+                            <h4>
+                                2023.09.27
+                            </h4>
+                            <img src="./img/poster_3.png" alt="art exhibition">
+                        </div>
+                    </div>
+                  </div>
+            </div><!--tab1_content-->
+            <div id="tab2" class="tab_content">
+               <!--Content-->
+               <div class="swiper tab_swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide poster_box">
+                    <p>
+                        <a href="#none">
+                            언론보도
+                        </a>
+                    </p>
+                    <h3>
+                        &lbrack; 언론보도 &rbrack; 하이젠베르크
+                    </h3>
+                    <h4>
+                        2023.10.30
+                    </h4>
+                    <img src="./img/news2.jpg" alt="news">
+                    </div>
+                    <div class="swiper-slide poster_box">
+                        <p>
+                            <a href="#none">
+                                언론보도
+                            </a>
+                        </p>
+                        <h3>
+                            &lbrack; 언론보도 &rbrack; 캔버스 위 '강운의 구름'
+                        </h3>
+                        <h4>
+                            2023.10.05
+                        </h4>
+                        <img src="./img/news1.jpg" alt="news">
+                    </div>
+                    <div class="swiper-slide poster_box">
+                        <p>
+                            <a href="#none">
+                                언론보도
+                            </a>
+                        </p>
+                        <h3>
+                            &lbrack; 언론보도 &rbrack; 중견, 원로작가 예술세계
+                        </h3>
+                        <h4>
+                            2023.09.27
+                        </h4>
+                        <img src="./img/news3.jpg" alt="news">
+                    </div>
+                </div>
+              </div>
+            </div><!--tab2_content-->
+            <div id="tab3" class="tab_content">
+                <!--Content-->
+                <div class="notice">
+                    <ul>
+                        <li>
+                            <div class="notice_title">
+                                <ul class="title_in">
+                                        <li>
+                                            05
+                                        </li>
+                                        <li>
+                                            힐리갤러리 > 힐리카페 셔틀버스 운행 확대 안내(10/30~11/07, 주중 매일 운행)
+                                        </li>
+                                        <li>
+                                            2023.10.23
+                                        </li>
+                                </ul><!--title_in-->
+                            </div><!--notice_title-->
+                            <div class="text_info">
+                                <p>
+                                    관람객 여러분들의 성원에 힘입어 10월 30일부터 힐리갤러리와 힐리카페를 순회하는 셔틀버스를 주중(월~금) 매일 운행합니다.
+                                </p>
+                                <dl>
+                                    <dt>
+                                        운행기간
+                                    </dt>
+                                    <dd>
+                                        - 10/30 ~ 11/07 기간 중 월 ~ 금요일(주 5회 운행)
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        출발 시각(일 2회 왕복운행, 출발 15분 전부터 선착순 탑승 가능, 입석 불가)
+                                    </dt>
+                                    <dd>
+                                        - 힐리갤러리 > 힐리카페 : 09:00 / 13:30
+                                    </dd>
+                                    <dd>
+                                        - 힐리카페 > 힐리갤러리 : 12:00 / 17:00
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="notice_title">
+                                <ul class="title_in">
+                                        <li>04</li>
+                                        <li>제24회 전시회 임시 휴관 안내 (10/05~10/09)</li>
+                                        <li>2023.10.01</li>
+                                </ul><!--title_in-->
+                            </div><!--notice_title-->
+                            <div class="text_info">
+                                제24회 전시실의 환경 정비를 위해 10월 5일 ~ 10월 9일까지 임시휴관합니다.
+                                갤러리 방문 시 참고하여주시기 바랍니다.
+                            </div>
+                        </li>
+                        <li>
+                            <div class="notice_title">
+                                <ul class="title_in">
+                                        <li>03</li>
+                                        <li>현장 예약 및 발권 개시 (관람일 기준 9/8부터 시행)</li>
+                                        <li>2023.09.01</li>
+                                </ul><!--title_in-->
+                            </div><!--notice_title-->
+                            <div class="text_info">
+                                <p>
+                                    9월 8일부터 현장발권이 가능합니다.<br>
+                                    다만 전시장 내부가 혼잡할 경우 입장 대기시간이 발생하거나 길어질 수 있습니다.
+                                </p>
+                                <ul>
+                                    <li>
+                                        <span>시행일 :</span> 관람일 기준, 9월 8일 부터
+                                    </li>
+                                    <li>
+                                        <span>멤버십</span> 회원은 별도의 예약없이 모든 전시 관람이 가능합니다.
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="notice_title">
+                                <ul class="title_in">
+                                        <li>02</li>
+                                        <li>제22회 전시회 현장발권 실시 안내(9/24~10/4)</li>
+                                        <li>2023.09.21</li>
+                                </ul><!--title_in-->
+                            </div><!--notice_title-->
+                            <div class="text_info">
+                                9월 24일부터 10월4일까지 제22회 전시회에 한해 현장발권이 가능합니다.<br>
+                                다만 전시장 내부가 혼잡할 경우 대기시간이 길어질 수 있으니, 희망하는 관람시간이 있으시다면 사전예약 후 방문하시는 것을 추천합니다.<br>
+                                주차장이 협소한 관계로 만차 시 주차가 불가하오니 가급적 대중교통을 이용해 주시기 바랍니다.
+                            </div>
+                        </li>
+                        <li>
+                            <div class="notice_title">
+                                <ul class="title_in">
+                                        <li>01</li>
+                                        <li>힐리갤러리 > 힐리카페 셔틀버스 운행 안내(09/13~10/12)</li>
+                                        <li>2023.09.08</li>
+                                </ul><!--title_in-->
+                            </div><!--notice_title-->
+                            <div class="text_info">
+                                <p>9월 13일부터 10월 12일까지 힐리카페 방문 관람객의 편의를 위해 힐리갤러리와 힐리카페를 순회하는 셔틀버스를 운행합니다.</p>
+                                <dl>
+                                    <dt>
+                                        운행기간
+                                    </dt>
+                                    <dd>
+                                        - 9/13 ~ 10/12 기간 중 월 ~ 금요일(주 5회 운행)
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        출발 시각(일 2회 왕복운행, 출발 15분 전부터 선착순 탑승 가능, 입석 불가)
+                                    </dt>
+                                    <dd>
+                                        - 힐리갤러리 > 힐리카페 : 09:00 / 13:30
+                                    </dd>
+                                    <dd>
+                                        - 힐리카페 > 힐리갤러리 : 12:00 / 17:00
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div><!--tab3_content-->
+        </div>
+    </div><!--community-->
+    <div id="gallery">
+        <h2 class="title">
+            GALLERY
+        </h2>
+        <div class="swiper-wrap">
+            <div class="swiper gallery">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/main_gallery1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/main_gallery2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/main_gallery3.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/main_gallery4.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/main_gallery5.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/main_gallery6.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/main_gallery7.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/main_gallery8.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/main_gallery9.png" alt=""></div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div><!--swiper-wrap-->
+        <a href="#none">MORE</a>
+    </div><!--gallery-->
+    <div id="insta">
+        <p class="sub_title">
+            INSTAGRAM
+        </p>
+        <h2 class="title">
+            INSTAGRAM
+        </h2>
+        <div id="insta_slide">
+            <div class="insta_slide_inner">
+                <ul>
+                    <li class="popup1 img1">
+                        <a href="#none">
+                            <img src="./img/insta1.png" alt="instagram" class="imgClass1">
+                        </a>
+                    </li>
+                    <li  class="popup2 img2">
+                        <a href="#none">
+                            <img src="./img/insta2.png" alt="instagram" class="imgClass2">
+                        </a>
+                    </li>
+                    <li  class="popup3 img3">
+                        <a href="#none">
+                            <img src="./img/insta3.png" alt="instagram" class="imgClass3">
+                        </a>
+                    </li>
+                    <li  class="popup4 img4">
+                        <a href="#none">
+                            <img src="./img/insta4.png" alt="instagram " class="imgClass4">
+                        </a>
+                    </li>
+                    <li  class="popup5 img5">
+                        <a href="#none">
+                            <img src="./img/insta5.png" alt="instagram" class="imgClass5">
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="popup1 img6">
+                        <a href="#none">
+                            <img src="./img/insta1.png" alt="instagram" class="imgClass6">
+                        </a>
+                    </li>
+                    <li  class="popup2 img7">
+                        <a href="#none">
+                            <img src="./img/insta2.png" alt="instagram" class="imgClass7">
+                        </a>
+                    </li>
+                    <li  class="popup3 img8">
+                        <a href="#none">
+                            <img src="./img/insta3.png" alt="instagram" class="imgClass8">
+                        </a>
+                    </li>
+                    <li  class="popup4 img9">
+                        <a href="#none">
+                            <img src="./img/insta4.png" alt="instagram " class="imgClass9">
+                        </a>
+                    </li>
+                    <li  class="popup5 img10">
+                        <a href="#none">
+                            <img src="./img/insta5.png" alt="instagram" class="imgClass10">
+                        </a>
+                    </li>
+                </ul>
+            </div><!--insta_slide_inner-->
+        </div><!--insta_slide-->
+    </div><!--insta-->
+    <div id="footer">
+        <div class="footer_inner">
+            <h1>
+                <a href="./sub1.html">
+                    <img src="./img/footer_logo.svg" alt="HILLY GALLERY CAFE">
+                </a>
+            </h1>
+            <div class="footer_box">
+                <ul class="footer_text">
+                    <li>
+                        <a href="#">개인정보처리방침</a>
+                    </li>
+                    <li>
+                        <a href="#">서비스이용약관</a>
+                    </li>
+                    <li>
+                        <a href="#">문의하기</a>
+                    </li>
+                </ul><!--footer_text-->
+                <ul class="footer_sns">
+                    <li>
+                        <a href="#">
+                            INSTAGRAM <img src="./img/footer_more.png" alt="more">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            FACEBOOK <img src="./img/footer_more.png" alt="more">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./index.html">
+                            INDEX <img src="./img/footer_more.png" alt="more">
+                        </a>
+                    </li>
+                </ul><!--footer_sns-->
+            </div><!--footer_box-->
+        </div><!--footer_inner-->
+        <div class="footer_typing">
+            <p class="typing-txt"> 부산광역시 해운대구 해운대로 123-45</p>
+		<p class="typing"></p>
+        </div><!--footer_typing_-->
+        <div class="footer_typing_">
+            <p class="typing-txt_"> 부산광역시 해운대구 해운대로 123-45</p>
+		<p class="typing_"></p>
+        </div><!--footer_typing_-->
+        <div id="ticket">
+            <div class="ticket_1">
+                <a href="#">
+                    <div class="inner1">
+                        <h3>
+                            관람안내
+                        </h3>
+                        <p>
+                            힐리 갤러리는 휴식을<br>
+                            취할 수 있는 전시 공간 입니다.
+                        </p>
+                    </div><!--inner1-->
+                    <div class="inner2">
+                        <img src="./img/gallery_footer_icon1.png" alt="">
+                    </div><!--inner2-->
+                </a>
+            </div><!--ticket_1-->
+            <div class="ticket_2">
+                <a href="#">
+                    <div class="inner1">
+                        <h3>
+                            티켓예매
+                        </h3>
+                        <p>
+                            힐리 갤러리 홈페이지에서<br>
+                            미리 티켓을 예매해 보세요.
+                        </p>
+                    </div><!--inner1-->
+                    <div class="inner2">
+                        <img src="./img/gallery_footer_icon2.png" alt="">
+                    </div><!--inner2-->
+                </a>
+            </div><!--ticket_2-->
+            <div class="line"></div><!--line-->
+        </div><!--ticket-->
+    </div><!--footer-->
+    <div id="popup1_" class="insta_popup">
+        <div id="popup1">
+            <div class="popup_inner">
+                <img src="./img/insta1popup.png" alt="insta이미지1">
+                <a href="#none" class="close">[ CLOSE ]</a>
+            </div><!--popup_inner-->
+        </div><!--popup1-->
+    </div><!--popup1_-->
+    <div id="popup2_" class="insta_popup">
+        <div id="popup1">
+            <div class="popup_inner">
+                <img src="./img/insta2popup.png" alt="insta이미지2">
+                <a href="#none" class="close">[ CLOSE ]</a>
+            </div><!--popup_inner-->
+        </div><!--popup1-->
+    </div><!--popup1_-->
+    <div id="popup3_" class="insta_popup">
+        <div id="popup1">
+            <div class="popup_inner">
+                <img src="./img/insta3popup.png" alt="insta이미지3">
+                <a href="#none" class="close">[ CLOSE ]</a>
+            </div><!--popup_inner-->
+        </div><!--popup1-->
+    </div><!--popup1_-->
+    <div id="popup4_" class="insta_popup">
+        <div id="popup1">
+            <div class="popup_inner">
+                <img src="./img/insta4popup.png" alt="insta이미지4">
+                <a href="#none" class="close">[ CLOSE ]</a>
+            </div><!--popup_inner-->
+        </div><!--popup1-->
+    </div><!--popup1_-->
+    <div id="popup5_" class="insta_popup">
+        <div id="popup1">
+            <div class="popup_inner">
+                <img src="./img/insta5popup.png" alt="insta이미지5">
+                <a href="#none" class="close">[ CLOSE ]</a>
+            </div><!--popup_inner-->
+        </div><!--popup1-->
+    </div><!--popup1_-->
+
+
+
+
+
+
+
+
+
+    <!--header-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        // Hide Header on on scroll down
+        var didScroll;
+        var lastScrollTop = 0;
+        var delta = 5;
+        var navbarHeight = $('header').outerHeight();
+
+            $(window).scroll(function(event){
+            didScroll = true;
+    });
+
+    setInterval(function() {
+        if (didScroll) {
+            hasScrolled();
+            didScroll = false;
+        }
+    }, 250);
+
+    function hasScrolled() {
+        var st = $(this).scrollTop();
+    
+        // Make sure they scroll more than delta
+        if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+        // If they scrolled down and are past the navbar, add class .nav-up.
+        // This is necessary so you never see what is "behind" the navbar.
+        if (st > lastScrollTop && st > navbarHeight){
+            // Scroll Down
+            $('header').removeClass('nav-down').addClass('nav-up');
+        } else {
+            // Scroll Up
+            if(st + $(window).height() < $  (document).height()) {
+                $('header').removeClass('nav-up').addClass('nav-down');
+            }
+        }
+    
+        lastScrollTop = st;
+    }
+    </script>
+    
+
+
+    <!--햄버거버튼-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="./js/hamburger.js"></script>
+
+
+    <!--aos-->
+    <script>
+        AOS.init();
+    </script>
+
+
+    <!--menu-->
+    <script>
+        $(window).resize(function(){ 
+    if ($(window).width() > 600) {  // 다바이스 크기가 640이상
+    $(function(){
+    $(window).on('scroll',function(){
+        if($(window).scrollTop()){
+                $('.menu_').addClass('active');
+            }else{
+                $('.menu_').removeClass('active');
+            }
+    })
+    });
+
+    } else {
+    }
+
+    }).resize();
+    </script>
+
+
+    <!--상설전시 슬라이드-->
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- 상설전시 -->
+  <script>
+    var swiper = new Swiper(".exhibition_swiper", {
+      spaceBetween: 0,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper_next",
+        prevEl: ".swiper_prev",
+      },
+      loop:true,
+    });
+  </script>
+    <!--프로그램-->
+    <script>
+            var swiper = new Swiper(".tab_swiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+                    spaceBetween: 0,
+                    breakpoints: {
+                        849: {
+                        slidesPerView: 3,
+                        spaceBetween: 15,
+                        },//800~1319 사이일때 보여지는 모습
+                        1320: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                        },//1320이상일때 보여지는 모습
+                    },
+        });
+    </script>
+    <!--gallery-->
+    <script>
+            
+            
+        var swiper = new Swiper(".gallery", {
+          navigation: {
+               nextEl: ".swiper-button-next",
+               prevEl: ".swiper-button-prev",
+              },//화살표를 작동하게 하는 옵션.
+          pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+              },//도트부분을 작동하게 하는 옵션.
+              autoplay: {
+                    delay: 2000,
+                    /*이미지가 자동으로 넘어가는 시간설정. 1000 = 1초*/
+                    disableOnInteraction: false,
+                },
+                loop: true,
+                loopAdditionalSlides : 1,
+                slideToClickedSlide : true,
+                centeredSlides:true,
+                spaceBetween: 30,
+                /*가장 작게 설정한 breakpoint크기 이하일때 적용됨*/
+                slidesPerView: 2,
+                    spaceBetween: 0,
+                    breakpoints: {
+                        600: {
+                        slidesPerView: 3,
+                        spaceBetween: 15,
+                        },//600~1319 사이일때 보여지는 모습
+                        1320: {
+                        slidesPerView: 4,
+                        spaceBetween: 30,
+                        },//1320이상일때 보여지는 모습
+                    },
+        });//지우면 안되요!
+      
+      </script>
+    
+
+
+
+    <!--탭 메뉴-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous">
+    </script>
+    <!--탭 제이쿼리-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			//처음들어갔을때 모습 만들기...
+			$(".tab_content").hide(); //tab_content 부분을 모두 숨김.
+			$(".lnb>li:first").addClass("active").show(); //첫번째 탭이 active클래스를 붙이고, 보여줌.
+			$(".tab_content:first").show(); //tab_contents중 첫번째꺼를 보여줌
+
+			//On Click Event
+			$(".lnb>li").click(function() {
+
+				$(".lnb>li").removeClass("active"); //Remove any "active" class
+				$(this).addClass("active"); //선택한 탭에만 active클래스 붙임
+				$(".tab_content").hide(); //모든 contents들 숨김
+
+				var activeTab = $(this).find("span").attr("data"); //Find the href attribute value to identify the active tab + content
+				/*.attr( attributeName ) -> 선택한 요소의 속성의 값을 가져옵니다.
+				.find()는 어떤 요소의 하위 요소 중 특정 요소를 찾을 때 사용합니다.*/
+				$(activeTab).fadeIn(); //Fade in the active ID content(active되어있는 칸의 id 값을 가진 부분이 나타남)
+				return false;
+			});
+        });
+</script>
+<script>
+    $("#gnb li a").click(function(){
+        $("ul.lnb li").removeClass("active");
+        $('ul.lnb li[href="'+$(this).attr('href')+'"]').addClass("active");
+        $(".tab_content").hide();
+        $($(this).attr("href")).fadeIn("slow");
+        return false;
+    });
+</script>
+
+    <!--타이핑-->
+    <script>
+		var typingBool = false; 
+			var typingIdx=0; 
+			var typingTxt = $(".typing-txt").text(); // 타이핑될 텍스트를 가져온다 
+			typingTxt=typingTxt.split(""); // 한글자씩 자른다. 
+			if(typingBool==false){ // 타이핑이 진행되지 않았다면 
+			   typingBool=true; 
+			   
+			   var tyInt = setInterval(typing,200); // 타이핑 스피드 설정 
+			 } 
+			 
+			 function typing(){ 
+			   if(typingIdx<typingTxt.length){ // 타이핑될 텍스트 길이만큼 반복 
+				 $(".typing").append(typingTxt[typingIdx]); // 한글자씩 이어준다. 
+				 typingIdx++; 
+			   } else{ 
+				 clearInterval(tyInt); //끝나면 반복종료
+                 //1초후
+				  setTimeout(function(){
+					//사용했던 변수 초기화
+					typingBool = false; 
+				  liIndex=0;
+				  typingIdx=-0;
+					
+					//첫번째 문장으로 셋팅
+				  typingTxt = $(".typing-txt").eq(liIndex).text(); 
+					   //타이핑 결과 모두 지우기
+				  $(".typing").html("")
+					
+					//반복시작
+					tyInt = setInterval(typing,100);
+				  }, 1000);
+				 
+			   } 
+			 }		 
+	</script>
+
+    <!--popup-->
+    <!--라이브러리-->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            /*.more_btn a를 클릭하면 .popup이 나타난다.
+            .close를 클릭하면 .popup이 사라진다.*/
+            $(".insta_slide_inner .popup1").click(function(){
+                $("#popup1_").show();
+            });
+            $(".close").click(function(){
+                $("#popup1_").hide();
+            });
+            $(".insta_slide_inner .popup2").click(function(){
+                $("#popup2_").show();
+            });
+            $(".close").click(function(){
+                $("#popup2_").hide();
+            });
+            $(".insta_slide_inner .popup3").click(function(){
+                $("#popup3_").show();
+            });
+            $(".close").click(function(){
+                $("#popup3_").hide();
+            });
+            $(".insta_slide_inner .popup4").click(function(){
+                $("#popup4_").show();
+            });
+            $(".close").click(function(){
+                $("#popup4_").hide();
+            });
+            $(".insta_slide_inner .popup5").click(function(){
+                $("#popup5_").show();
+            });
+            $(".close").click(function(){
+                $("#popup5_").hide();
+            });
+        });
+    </script>
+
+    <!--healing 이미지변경-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script><!--제이쿼리 cdn-->
+<script src="./js/insta.js"></script>
+</body>
+</html>

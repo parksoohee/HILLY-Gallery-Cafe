@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HILLY Gallery Cafe</title>
+    <!--파비콘-->
+    <link rel="shortcut icon" href="./img/icon_logo.png" type="image/x-icon">
+    <!--영문폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+    <!--한글폰트-->
+    <link rel="stylesheet" href="./font/stylesheet.css">
+    <!--main.css-->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div id="container">
+        <div id="gallery">
+            <div class="box">
+                <div class="circle1">
+                    <h1>
+                             <img src="./img/start_page_gallery_cafe_logo.svg" alt="hilly gallery cafe">
+                     </h1> 
+                     <h2>
+                         HILLY GALLERY
+                     </h2>
+                     <a href="./sub1.html">
+                         웹사이트 방문 VISIT WEBSITE
+                     </a>
+                     <a href="./sub1.html">
+                         전시 예약 RESERVE TECKETS
+                     </a>
+                 </div><!--circle1-->
+            </div><!--box-->
+        </div><!--gallery-->
+        <div id="cafe">
+            <div class="box">
+                <div class="circle2">
+                    <h1>
+                             <img src="./img/start_page_gallery_cafe_logo.svg" alt="hilly gallery cafe">
+                     </h1> 
+                     <h2>
+                         HILLY CAFE
+                     </h2>
+                     <a href="./sub2.html">
+                         홈페이지 방문 VISIT HOMEPAGE
+                     </a>
+                     <a href="./sub2.html">
+                         메뉴 보기 MENU
+                     </a>
+                 </div><!--circle2-->
+            </div><!--box-->
+        </div><!--cafe-->
+        <img src="./img/start_page_logo.svg" alt="hilly gallery cafe" class="logo">
+    </div><!--container-->
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script><!--제이쿼리 cdn-->
+    <script>
+	    $(function(){
+    	    //이미지 변경 함수 호출
+    	    $(".box").mouseenter(function(){
+            $(".logo").attr("src", "img/start_page_hover_logo.svg");//변경될 이미지 주소를 넣어주세요
+        });
+        $(".box").mouseleave(function(){
+            $(".logo").attr("src", "img/start_page_logo.svg");//변경될 이미지 주소를 넣어주세요
+        });
+    });
+    
+    
+    
+
+    </script>
+</body>
+</html>
