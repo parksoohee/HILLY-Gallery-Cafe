@@ -169,6 +169,7 @@ header h1 img{
 #container{
     position: relative;
     width: 100%;
+    overflow-x: hidden;
 }
 #brand{
     width: 100%;
@@ -1207,7 +1208,6 @@ p.typing-txt{
         display: flex;
         padding-top:150px;
         width:70%;/*이 너비에 따라 보이는 부분이 변화함*/
-        height: 100vh;
         position:fixed;
         z-index: 98;
         right:-100%;
