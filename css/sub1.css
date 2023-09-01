@@ -1391,4 +1391,12 @@ p.typing-txt{
     .ticket_1 a, .ticket_2 a{
         padding: 20px;
     }
+    
+
+    /*popup*/
+
+
+    .popup_inner{
+        width: 90%;
+    }
 }
