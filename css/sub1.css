@@ -1127,6 +1127,10 @@ p.typing-txt{
     .header{
         width: 100%;
     }
+    .header>h1{
+        padding-left: 20px;
+        width: 120px;
+    }
     #gnb{
         display: none;
         position: absolute;
@@ -1252,6 +1256,7 @@ p.typing-txt{
     
     #main>h1{
         width: 100%;
+        padding-top: 160px;
     }
 
 
@@ -1313,13 +1318,31 @@ p.typing-txt{
     }
 
 
+    /*exhibition*/
+
+
+    .title{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+
+
     /*garden*/
 
 
+    #gallery{
+        padding-top: 70px;
+    }
     .garden_img{
         height: 400px;
         background: url(../img/garden_.png) no-repeat center 100%;
         background-size: cover;
+    }
+    #gallery>a{
+        margin-bottom: 70px;
     }
     
 

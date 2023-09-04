@@ -111,7 +111,7 @@ header h1 img{
     margin-right: 0;
     }
 }
-.swiper-slide-active .word_{
+#main .swiper-slide-active .word_{
     animation: typing 1.5s cubic-bezier(0.4, 0, 0.2, 1) both;
 }
 #main .bg1{
@@ -150,14 +150,14 @@ header h1 img{
 .main_pag{
     background: rgba(255,255,255,0.5);
 }
-#main .swiper-horizontal>.swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal{
+#main .swiper-horizontal>.swiper-pagination-progressbar, #main .swiper-pagination-progressbar.swiper-pagination-horizontal{
     width: 64.7%;
     height: var(--swiper-pagination-progressbar-size,2px);
     left: 50%;
     top: var(--swiper-navigation-top-offset,90%);
     transform: translateX(-50%);
 }
-.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+#main  .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
     background-color: #fff;
 }
 
@@ -264,9 +264,6 @@ header h1 img{
 .brand_slide{
     display: none;
     width: 100%;
-}
-.brane_slide img{
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
 
 
@@ -673,6 +670,20 @@ p.typing-txt{
 
 /*태블릿부분*/
 @media (min-width:600px) and (max-width:1340px){
+    /*header*/
+
+
+    header h1{
+        width: 67%;
+    }
+    #gnb{
+        width: 33%;
+    }
+
+
+    /*main*/
+
+
     .word p{
         font-size: 18px;
         font-weight: 700;
@@ -685,12 +696,7 @@ p.typing-txt{
         line-height: 70px;
         letter-spacing: -6px;
     }
-    header h1{
-        width: 67%;
-    }
-    #gnb{
-        width: 33%;
-    }
+    
     .main_next{
         left: 14.7%;
         width: 65px;
@@ -700,7 +706,7 @@ p.typing-txt{
         width: 65px;
         height: 65px;
     }
-    #main .swiper-horizontal>.swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal{
+    #main .swiper-horizontal>.swiper-pagination-progressbar, #main .swiper-pagination-progressbar.swiper-pagination-horizontal{
         width: 59.7%;
     }
 
@@ -719,7 +725,7 @@ p.typing-txt{
     }
     .brand_text{
         width: 100%;
-        padding: 0 0 50px;
+        padding-bottom: 50px;
         padding-left: 5%;
     }
     .brand_slide{
@@ -742,8 +748,7 @@ p.typing-txt{
     }
     .brand_slide .swiper-slide{
         margin-left: 5%;
-        width: auto;
-        min-width: 400px;
+        width: 100%;
     }
 
 
@@ -881,6 +886,23 @@ p.typing-txt{
 }
 /*사이즈 850px*/
 @media (max-width:849px){
+
+    /*header*/
+
+
+    header h1{
+        width: 60%;
+    }
+    #gnb{
+        width: 40%;
+    }
+    #gnb li{
+        font-size: 18px;
+    }
+
+    /*main*/
+
+
     .word p{
         font-size: 16px;
         padding-bottom: 10px;
@@ -890,15 +912,6 @@ p.typing-txt{
         font-size: 35px;
         line-height: 50px;
         letter-spacing: -4px;
-    }
-    header h1{
-        width: 60%;
-    }
-    #gnb{
-        width: 40%;
-    }
-    #gnb li{
-        font-size: 18px;
     }
     .main_next{
         left: 15.5%;
@@ -910,7 +923,7 @@ p.typing-txt{
         height: 45px;
         left: 9%;
     }
-    #main .swiper-horizontal>.swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal{
+    #main .swiper-horizontal>.swiper-pagination-progressbar, #main.swiper-pagination-progressbar.swiper-pagination-horizontal{
         width: 54.5%;
         top: var(--swiper-navigation-top-offset,87.5%);
     }
@@ -970,7 +983,7 @@ p.typing-txt{
     }
     .brand_slide .swiper-slide{
         margin-left: 5%;
-        width: auto;
+        width: 100%;
     }
 
 
@@ -1111,31 +1124,13 @@ p.typing-txt{
 
 /*모바일부분*/
 @media (max-width:599px){
-    .word{
-        left: 10%;
-    }
-    .word p{
-        font-size: 16px;
-        padding-bottom: 10px;
-        letter-spacing: -1px;
-    }
-    .word h1{
-        font-size: 30px;
-        line-height: 40px;
-        letter-spacing: -2px;
-    }
-    .main_next{
-        left: 19%;
-        width: 18px;
-        height: 18px;
-    }
-    .main_prev{
-        width: 18px;
-        height: 18px;
-        left: 9%;
-    }
-    #main .swiper-horizontal>.swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal{
-        display: none;
+
+
+    /*header*/
+
+
+    header h1 img{
+        width: 140px;
     }
     #gnb{
         display: none;
@@ -1256,6 +1251,37 @@ p.typing-txt{
         transform:scaleX(1);
         opacity:1;
         visibility:visible;
+    }
+
+
+    /*main*/
+
+
+    .word{
+        left: 10%;
+    }
+    .word p{
+        font-size: 16px;
+        padding-bottom: 10px;
+        letter-spacing: -1px;
+    }
+    .word h1{
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -2px;
+    }
+    .main_next{
+        left: 19%;
+        width: 18px;
+        height: 18px;
+    }
+    .main_prev{
+        width: 18px;
+        height: 18px;
+        left: 9%;
+    }
+    #main .swiper-horizontal>.swiper-pagination-progressbar, #main .swiper-pagination-progressbar.swiper-pagination-horizontal{
+        display: none;
     }
 
 
@@ -1442,7 +1468,7 @@ p.typing-txt{
         margin-top: 0;
         }
     }
-    .swiper-slide-active .word_{
+    #main .swiper-slide-active .word_{
         animation: typing_ 1.5s cubic-bezier(0.4, 0, 0.2, 1) both;
     }
     .main_next{
@@ -1451,7 +1477,7 @@ p.typing-txt{
     .main_prev{
         left: 41.5%;
     }
-    #main .swiper-horizontal>.swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal{
+    #main .swiper-horizontal>.swiper-pagination-progressbar, #main .swiper-pagination-progressbar.swiper-pagination-horizontal{
         display: none;
     }
 
