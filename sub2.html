@@ -18,7 +18,6 @@
     <!--main슬라이드-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <!--tab_menu-->
-   
     <link rel="stylesheet" type="text/css" href="./css/cdn.jsdelivr.net_npm_slick-carousel@1.8.1_slick_slick.css"/>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <!--타이핑-->
@@ -201,7 +200,8 @@
                   <span class="word_">껴</span>
                   <span class="word_">보 </span>
                   <span class="word_">세</span>
-                  <span class="word_">요.</span>
+                  <span class="word_">요</span>
+                  <span class="word_">.</span>
                 </h1>
               </div><!--word-->
               </div><!--slide3-->
@@ -324,7 +324,51 @@
                   </h2>
                 </div><!--brand_slide_text-->
                 </div>
-              </div>
+                <div class="swiper-slide">
+                  <img src="./img/coffee1.png" alt="">
+                <div class="brand_slide_text">
+                  <p>
+                    Coffee Beans
+                  </p>
+                  <h2>
+                    원두선별
+                  </h2>
+                </div><!--brand_slide_text-->
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/coffee2.png" alt="">
+                <div class="brand_slide_text">
+                  <p>
+                    Coffee Roastiong
+                  </p>
+                  <h2>
+                    커피 로스팅
+                  </h2>
+                </div><!--brand_slide_text-->
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/coffee3.png" alt="">
+                <div class="brand_slide_text">
+                  <p>
+                    Coffee Extraction
+                  </p>
+                  <h2>
+                    커피추출
+                  </h2>
+                </div><!--brand_slide_text-->
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/coffee4.png" alt="">
+                <div class="brand_slide_text">
+                  <p>
+                    Special Coffee
+                  </p>
+                  <h2>
+                    스페셜티
+                  </h2>
+                </div><!--brand_slide_text-->
+                </div>
+              </div> <div class="swiper-pagination brand_pag"></div>
             </div>
           </div><!--brand_slide-->
         </div><!--brand_in-->
@@ -500,23 +544,23 @@
             <div class="footer_box">
                 <ul class="footer_text">
                     <li>
-                        <a href="#">개인정보처리방침</a>
+                        <a href="#none">개인정보처리방침</a>
                     </li>
                     <li>
-                        <a href="#">서비스이용약관</a>
+                        <a href="#none">서비스이용약관</a>
                     </li>
                     <li>
-                        <a href="#">문의하기</a>
+                        <a href="#none">문의하기</a>
                     </li>
                 </ul><!--footer_text-->
                 <ul class="footer_sns">
                     <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/">
                             INSTAGRAM <img src="./img/footer_more.png" alt="more">
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://ko-kr.facebook.com/">
                             FACEBOOK <img src="./img/footer_more.png" alt="more">
                         </a>
                     </li>
@@ -538,7 +582,7 @@
         </div><!--footer_typing_-->
         <div id="ticket">
             <div class="ticket_1">
-                <a href="#">
+                <a href="#none">
                     <div class="inner1">
                         <h3>
                             메뉴안내
@@ -554,7 +598,7 @@
                 </a>
             </div><!--ticket_1-->
             <div class="ticket_2">
-                <a href="#">
+                <a href="#none">
                     <div class="inner1">
                         <h3>
                             원두샘플
@@ -609,14 +653,12 @@
       slidesPerView: 1.7,
       spaceBetween: 0,
       pagination: {
-        el: ".swiper-pagination",
+        el: ".brand_pag",
         clickable: true,
       },
-      observer:true,
-      ovserveParents:true,
       loop:true,
-      loopedSlides: 1,
-      loopAdditionalSlides : 1,
+      observer: true,	// 추가
+      observeParents: true,
       breakpoints: {
     // when window width is >= 480px
     375: {
@@ -624,9 +666,24 @@
       spaceBetween: 15
     },
     // when window width is >= 640px
-    700: {
+    740: {
+      slidesPerView: 1.9,
+      spaceBetween: 0
+    },
+    // when window width is >= 640px
+    850: {
+      slidesPerView: 2.5,
+      spaceBetween: 0,
+    },
+    // when window width is >= 640px
+    1000: {
+      slidesPerView: 2.7,
+      spaceBetween: 0,
+    },
+    // when window width is >= 640px
+    1200: {
       slidesPerView: 3.7,
-      spaceBetween: 30
+      spaceBetween: 0,
     }
   },
     });
