@@ -990,6 +990,9 @@ p.typing-txt{
     /*coffee*/
 
 
+    #coffee{
+        height: 1800px;
+    }
     .coffee_in h1{
         font-size: 40px;
         font-weight: 700;
@@ -1311,6 +1314,7 @@ p.typing-txt{
     #coffee{
         top: 700px;
         height: 1800px;
+        background-size: cover;
     }
 
 
