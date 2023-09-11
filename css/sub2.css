@@ -838,6 +838,23 @@ p.typing-txt{
 
 /*사이즈 1200px*/
 @media (max-width:1199px){
+    /*main*/
+
+
+    .main_next{
+        left: 15.7%;
+    }
+    #main .swiper-horizontal>.swiper-pagination-progressbar, #main .swiper-pagination-progressbar.swiper-pagination-horizontal{
+        width: 55%;
+        height: var(--swiper-pagination-progressbar-size,2px);
+        left: 50%;
+        top: var(--swiper-navigation-top-offset,90%);
+        transform: translateX(-50%);
+    }
+
+
+
+    /*partner*/
     #partner{
         position: relative;
         padding-top: 800px;
@@ -914,7 +931,7 @@ p.typing-txt{
         letter-spacing: -4px;
     }
     .main_next{
-        left: 15.5%;
+        left: 17%;
         width: 45px;
         height: 45px;
     }
@@ -924,8 +941,8 @@ p.typing-txt{
         left: 9%;
     }
     #main .swiper-horizontal>.swiper-pagination-progressbar, #main.swiper-pagination-progressbar.swiper-pagination-horizontal{
-        width: 54.5%;
-        top: var(--swiper-navigation-top-offset,87.5%);
+        width: 50%;
+        top: var(--swiper-navigation-top-offset,88%);
     }
 
 
@@ -1274,14 +1291,10 @@ p.typing-txt{
         letter-spacing: -2px;
     }
     .main_next{
-        left: 19%;
-        width: 18px;
-        height: 18px;
+        left: 52%;
     }
     .main_prev{
-        width: 18px;
-        height: 18px;
-        left: 9%;
+        left: 40%;
     }
     #main .swiper-horizontal>.swiper-pagination-progressbar, #main .swiper-pagination-progressbar.swiper-pagination-horizontal{
         display: none;
