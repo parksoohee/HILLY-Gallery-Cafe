@@ -1042,7 +1042,7 @@ p.typing-txt{
         padding: 10px 0;
         width: 100%;
         overflow: hidden;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     .slick-initialized .swipe-tab-content{
         min-width: 350px;
@@ -1356,7 +1356,7 @@ p.typing-txt{
     }
     .wholesale_text a{
         font-size: 16px;
-        padding: 12px 100px;
+        padding: 12px 80px;
     }
 
 
@@ -1393,6 +1393,9 @@ p.typing-txt{
     /*healing*/
 
 
+    #healing{
+        margin-bottom: 300px;
+    }
     .healing_in{
         width: 95%;
     }
@@ -1405,9 +1408,6 @@ p.typing-txt{
         padding: 10px 25px;
         font-size: 16px;
     }
-
-
-    /*footer*/
 
 
     /*footer*/
@@ -1557,7 +1557,7 @@ p.typing-txt{
 
 
     #tab{
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     #tab_menu{
         width: 95%;
@@ -1603,18 +1603,44 @@ p.typing-txt{
     }
     
 
-/*healing*/
+    /*healing*/
 
 
-#healing{
-    margin-bottom: 300px;
-}
+    #healing{
+        margin-bottom: 250px;
+    }
 
 
-/*footer*/
+    /*footer*/
 
 
-.footer_inner .footer_box ul li a{
-    font-size: 16px;
-}
+    .footer_inner{
+        bottom: 40px;
+    }
+    .footer_inner .footer_box{
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .footer_inner .footer_box ul{
+        padding-left: 0;
+    }
+    .footer_inner .footer_box .footer_sns{
+        padding-right: 0;
+    }
+    .footer_inner .footer_box ul li a{
+        font-size: 16px;
+    }
+    #ticket h3{
+        font-size: 26px;
+    }
+    #ticket p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .inner2{
+        display: none;
+    }
 }

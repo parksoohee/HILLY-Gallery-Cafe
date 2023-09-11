@@ -1423,3 +1423,40 @@ p.typing-txt{
         width: 90%;
     }
 }
+
+/*420이하*/
+@media (max-width:419px){
+
+    /*footer*/
+
+
+    .footer_inner{
+        bottom: 40px;
+    }
+    .footer_inner .footer_box{
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .footer_inner .footer_box ul{
+        padding: 0;
+    }
+    .footer_inner .footer_box .footer_sns{
+        padding-right: 0;
+    }
+    .footer_inner .footer_box ul li a{
+        font-size: 16px;
+    }
+    #ticket h3{
+        font-size: 26px;
+    }
+    #ticket p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .inner2{
+        display: none;
+    }
+}
