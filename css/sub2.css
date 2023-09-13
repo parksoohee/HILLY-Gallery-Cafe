@@ -1489,10 +1489,10 @@ p.typing-txt{
         animation: typing_ 1.5s cubic-bezier(0.4, 0, 0.2, 1) both;
     }
     .main_next{
-        left: 58.5%;
+        left: 52.5%;
     }
     .main_prev{
-        left: 41.5%;
+        left: 36.5%;
     }
     #main .swiper-horizontal>.swiper-pagination-progressbar, #main .swiper-pagination-progressbar.swiper-pagination-horizontal{
         display: none;
