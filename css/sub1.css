@@ -98,7 +98,8 @@ header{
 
 #menu{
     width: 100%;
-    padding: 100px 0;
+    padding: 100px 15px;
+    box-sizing: border-box;
 }
 .menu_in{
     width: 85%;
@@ -392,6 +393,7 @@ header{
     font-size: 18px;
     padding: 0 10px 20px;
     border-bottom: 2px solid #B7B7B7;
+    align-items: baseline;
 }
 .community_inner>a{
     margin-left: auto;
@@ -933,6 +935,9 @@ p.typing-txt{
     .title_in li:nth-child(1){
         padding-right: 50px;
     }
+    .tab_container{
+        padding: 0 20px;
+    }
 
 
     /*gallery*/
@@ -1050,8 +1055,7 @@ p.typing-txt{
         padding-right: 50px;
     }
     #tab1, #tab2{
-        max-width: 415px;
-        margin: 0 auto;
+        text-align: center;
     }
 
 
@@ -1256,6 +1260,8 @@ p.typing-txt{
     
     #main>h1{
         width: 100%;
+        font-size: 55px;
+        line-height: 65px;
         padding-top: 160px;
     }
 
@@ -1364,6 +1370,9 @@ p.typing-txt{
     .title_in li:nth-child(1){
         padding-right: 15px;
     }
+    .tab_container{
+        padding: 0 20px;
+    }
     
 
     /*gallery*/
@@ -1426,6 +1435,13 @@ p.typing-txt{
 
 /*420이하*/
 @media (max-width:419px){
+    #main>h1{
+        box-sizing: border-box;
+        width: 100%;
+        padding-left: 20px;
+        font-size: 45px;
+        line-height: 55px;
+    }
 
     /*footer*/
 
